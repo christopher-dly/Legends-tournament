@@ -1,0 +1,18 @@
+.content{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bilan{
+    color: var(--gold);
+    text-align: center;
+    margin-top: 15px;
+}
+
+.color-gold{
+    color: var(--gold);
+}
+
+.space{
+    margin-top: 15px;
+}

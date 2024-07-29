@@ -1,0 +1,32 @@
+.inscription{
+    color: var(--white);
+    margin-top: 30px;
+}
+
+.inscription-form{
+    border: double;
+    border-color: var(--gold);
+    border-width: 7px;
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+    background-color: var(--grey);
+    font-size: 20px;
+}
+
+.split{
+    background-color: var(--gold);
+    border: none;
+    height: 1px;
+    margin: 10px;
+}
+
+.inscrire{
+    border: solid;
+    border-color: var(--gold);
+    border-width: 3px;
+    font-size: 25px;
+    padding: 5px 50px;
+    margin-top: 30px;
+    background-color: var(--grey);
+}

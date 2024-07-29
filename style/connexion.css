@@ -1,0 +1,18 @@
+.connect-button{
+    border: solid;
+    border-color: var(--gold);
+    border-width: 2px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 40px;
+}
+.connect-button:hover{
+    background-color: var(--gold);
+}
+
+.connect-box{
+    padding: 50px;
+    font-size: 25px;
+    margin-top: 25px;
+}

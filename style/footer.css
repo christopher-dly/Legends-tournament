@@ -1,0 +1,35 @@
+footer{
+    height: 10.5vh;
+    background-color: #1E282D;
+    margin-top: auto;
+    border-top: double;
+    border-top-color: #C89B3C;
+    border-top-width: 5px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--white);
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+
+a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+.faq{
+    font-family: 'Spiegel';
+    padding: 15px;
+}
+
+.lt{
+    font-family: 'Spiegel';
+}
+
+.mentionL{
+    font-family: 'Spiegel';
+    padding: 15px;
+}

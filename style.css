@@ -1,0 +1,177 @@
+@import url(./style/footer.css);
+@import url(./style/header1.css);
+@import url(./style/acceuil.css);
+@import url(./style/carousel.css);
+@import url(./style/historique.css);
+@import url(./style/creer-tournoi-perso.css);
+@import url(./style/accordeon.css);
+@import url(./style/classement.css);
+@import url(./style/responsive.css);
+@import url(./style/header.css);
+@import url(./style/index.css);
+@import url(./style/inscription.css);
+@import url(./style/inscription-regle.css);
+@import url(./style/connexion.css);
+
+@font-face {
+    font-family: 'beaufort-bold';
+    src: url(./asset/font/BeaufortforLOL-Bold.otf);
+}
+@font-face {
+    font-family: 'beaufort-regular';
+    src: url(./asset/font/BeaufortforLOL-Regular.otf);
+}
+
+@font-face {
+    font-family: 'spiegel-bold';
+    src: url(./asset/font/Spiegel-Bold.otf);
+}
+
+@font-face {
+    font-family: 'spiegel-regular';
+    src: url(./asset/font/Spiegel-Regular.otf);
+}
+
+:root{
+    --gold: #C89B3C;
+    --grey: #1E282D;
+    --white: white;
+    --black: black;
+    --dark-gold: #463714; 
+    --light-gold: #F0E6D2;
+    --gold-gradiant: linear-gradient(45deg, #463714, #c89b3c);
+    --blue-gradiant: linear-gradient(45deg, #005a82, #010a13);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--white);
+    font-family: 'beaufort-bold';
+}
+
+body{
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+#background-video{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.space-even{
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 694px;
+}
+
+.title-section{
+    border: double;
+    border-color: var(--gold);
+    border-width: 7px;
+    background: var(--grey);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 30px;
+}
+
+.tournament-card{
+    border: double;
+    border-color: var(--gold);
+    border-width: 7px;
+    background: var(--grey);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.result{
+    font-family: 'spiegel-regular';
+    font-size: 18px;
+}
+
+.type-tournament-bouton{
+    padding: 0 10px;
+    background-color: var(--grey);
+    border-color: var(--gold);
+}
+.type-tournament-bouton:active{
+    background-color: var(--gold);
+}
+
+.bouton-inscrire{
+    padding: 10px 50px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: 'beaufort-bold';
+    background-color: var(--grey);
+    border: double;
+    border-width: 5px;
+    border-color: var(--gold);
+}
+.bouton-inscrire:hover{
+    background-color: var(--gold);
+}
+
+.split{
+height: 1px;
+align-items: center;
+background-color: var(--gold);
+border: none;
+width: 80%;
+margin: 15px 10%;
+
+}
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track { 
+    -webkit-border-radius: 10px;
+    background-color: var(--grey);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background:var(--gold); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+
+.spacer{
+    height: 100px;
+}
+
+li{
+    list-style: none;
+}
+
+.component{
+    border: double;
+    border-width: 7px;
+    border-color: var(--gold);
+    background-color: var(--grey);
+    overflow-y: scroll;
+    margin: 15px;
+    padding-bottom: 15px;
+}
+
+.rules{
+    display: none;
+}

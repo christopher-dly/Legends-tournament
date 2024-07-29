@@ -1,0 +1,81 @@
+.presentation-card{
+    color: var(--white);
+    border: double;
+    border-width: 7px;
+    border-color: var(--gold);
+    background-color: var(--grey);
+    overflow-y: scroll;
+    margin: 15px;
+    height: 490px;
+    padding-bottom: 15px;
+}
+
+.big-title-pres{
+    text-transform: uppercase;
+    margin: 10px 10px 0 5px;
+    text-align: center;
+    color: var(--gold);
+}
+
+.title-pres{
+    text-align: center;
+    margin: 10px 5px 0 5px;
+    color: var(--gold);
+}
+
+.text-pres{
+    margin: 10px 5px 0 5px;
+    font-family: 'spiegel-regular';
+}
+
+.small-title-pres{
+    margin: 10px 5px 0 5px;
+    text-align: center;
+    color:var(--gold)
+}
+
+.list-pres{
+    margin: 10px 5px 0 5px;
+    font-family: 'spiegel-regular';
+}
+
+.content-list_pres{
+    margin: 10px 5px 0 5px;
+    font-family: 'spiegel-regular';
+}
+
+strong{
+    color: var(--gold);
+    font-family: 'beaufort-regular';
+}
+
+.log{
+    color: var(--white);
+    display: flex;
+    font-size: 30px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.register{
+    border: double;
+    border-color: var(--gold);
+    border-width: 7px;
+    background-color: var(--grey);
+    padding: 10px;
+}
+.register:hover{
+    background-color: var(--gold);
+}
+
+.connect{
+    border: double;
+    border-color: var(--gold);
+    border-width: 7px;
+    background-color: var(--grey);
+    padding: 10px;
+    color: var(--white);
+}
+.connect:hover{
+    background-color: var(--gold);
+}

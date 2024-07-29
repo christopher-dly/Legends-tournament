@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name='description' content="Legends tournament - Tournois pour joueur de lol">
+        <title>Legend tournament</title>
+        <link rel="icon" href="../asset/favicon/favicon.ico" type="image/x-icon">
+        <link rel="apple-touch-icon" sizes="180x180" href="../asset/favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../asset/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../asset/favicon/favicon-16x16.png">
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <div>
+                    <a href="./acceuil.html">
+                        <img class='logo-or' src="../asset/img/logo_dore.png" alt="">
+                    </a>
+                </div>
+                <div class="burger-menu" id="burger-menu">
+                    <img class='logo-burger' src="../asset/img/logo-burger.png" alt="">
+                </div>
+            </nav>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#">Mon équipe</a></li>
+                    <hr class="split-burger">
+                    <li><a href="#">Communautées</a></li>
+                    <hr class="split-burger">
+                    <li><a href="#">Nous contacter</a></li>
+                    <hr class="split-burger">
+                    <li><a href="../index.html">Se déconnecter</a></li>
+                </ul>
+        </header>
+        <video id="background-video" autoplay muted loop>
+            <source src="../asset/video/Explosion_Magic_Loop_10sec.mp4" type="video/mp4">
+        </video> 
+        <main class="space-even">
+            <div class="title-section">S'inscrire à un tournoi</div>
+            <div class="carousel">
+                <div class="carousel-inner">
+                    <div class="tournament-card carousel-item active">
+                        <div class="name-tournament">Tournoi 1</div>
+                        <hr class="split">
+                        <div class="categorie">Nombre de participants:</div>
+                        <div class="result">10 équipes</div>
+                        <hr class="split">
+                        <div class="categorie">Type de tournoi:</div>
+                        <div class="result">Élimination directe</div>
+                        <hr class="split">
+                        <div class="categorie">Date et heure:</div>
+                        <div class="result">02/02/2002 / 22h22</div>
+                        <hr class="split">
+                        <div class="categorie">Créé par:</div>
+                        <div class="result">Utilisateur: test</div>
+                        <hr class="split">
+                        <div class="categorie">Récompense:</div>
+                        <div class="result">1548</div>
+                        <input type="submit" value="S'inscrire" class="bouton-inscrire">
+                    </div>
+                    <div class="tournament-card carousel-item">
+                        <div class="name-tournament">Tournoi 2</div>
+                        <hr class="split">
+                        <div class="categorie">Nombre de participants:</div>
+                        <div class="result">12 équipes</div>
+                        <hr class="split">
+                        <div class="categorie">Type de tournoi:</div>
+                        <div class="result">Élimination directe</div>
+                        <hr class="split">
+                        <div class="categorie">Date et heure:</div>
+                        <div class="result">01/01/1001 / 22h22</div>
+                        <hr class="split">
+                        <div class="categorie">Créé par:</div>
+                        <div class="result">Legend Tournament</div>
+                        <hr class="split">
+                        <div class="categorie">Récompense:</div>
+                        <div class="result">1548</div>
+                        <input type="submit" value="S'inscrire" class="bouton-inscrire">
+                    </div>
+                    <div class="tournament-card carousel-item">
+                        <div class="name-tournament">Tournoi 3</div>
+                        <hr class="split">
+                        <div class="categorie">Nombre de participants:</div>
+                        <div class="result">10 équipes</div>
+                        <hr class="split">
+                        <div class="categorie">Type de tournoi:</div>
+                        <div class="result">Bo3</div>
+                        <hr class="split">
+                        <div class="categorie">Date et heure:</div>
+                        <div class="result">02/02/2002 / 22h22</div>
+                        <hr class="split">
+                        <div class="categorie">Créé par:</div>
+                        <div class="result">Utilisateur: test</div>
+                        <hr class="split">
+                        <div class="categorie">Récompense:</div>
+                        <div class="result">1548</div>
+                        <input type="submit" value="S'inscrire" class="bouton-inscrire">
+                    </div>
+                </div>
+                <button class="carousel-control prev" onclick="moveSlide(-1)">&#10094;</button>
+                <button class="carousel-control next" onclick="moveSlide(1)">&#10095;</button>
+            </div>
+        </main>
+        <div class="spacer"></div>
+        <footer>
+            <a href="" class="faq">FAQ</a>
+            <div class="social">
+                <div class="logo-sn">
+                    <a href="x"><img src="../asset/img/logo-insta.png" alt="logo instagram"></a>
+                    <a href="x"><img src="../asset/img/logo-tiktok.png" alt="logo tiktok"></a>
+                    <a href="x"><img src="../asset/img/logo-twitch.png" alt="logo twitch"></a>
+                    <a href="x"><img src="../asset/img/logo-ytb.png" alt="logo youtube"></a>
+                    <p class="lt">@Legendstournament</p>
+                </div>
+            </div>
+            <a href="x" class="mentionL">Mentions légales</a>
+        </footer>
+        <script src="../script.js"></script>
+    </body>
+</html>

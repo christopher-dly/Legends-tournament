@@ -1,0 +1,24 @@
+.validation{
+    display: flex;
+    justify-content: center;
+}
+
+.rules{
+    font-family: 'beaufort-regular';
+}
+
+.content-rules{
+    border: double;
+    border-color: var(--gold);
+    border-width: 7px;
+    margin-top: 50px;
+    padding: 10px;
+    text-align: center;
+    background-color: var(--grey);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.inscrire:hover{
+    background-color: var(--gold);
+}

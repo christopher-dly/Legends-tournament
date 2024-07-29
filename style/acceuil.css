@@ -1,0 +1,15 @@
+.acceuil-card{
+    border: double;
+    border-color: var(--gold);
+    border-width: 7px;
+    background: var(--grey);
+    height: 80px;
+    width: 300px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.acceuil-card:hover{
+    background-color: var(--gold);
+}

@@ -1,0 +1,36 @@
+.carousel {
+    position: relative;
+    width: 80%;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    min-width: 100%;
+}
+
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: var(--gold);
+    font-size: 20px;
+    cursor: pointer;
+    transform: translateY(-50%);
+    user-select: none;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
